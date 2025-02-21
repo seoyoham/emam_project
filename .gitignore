@@ -1,0 +1,60 @@
+### IntelliJ 관련 설정 파일 ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+target/
+logs/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+### Maven 관련 ###
+.mvn/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+release.properties
+# 로컬 Maven Repository (선택 사항)
+# ~/.m2/repository/
+
+### Gradle 관련 ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+*.gradle
+gradle-app.setting
+
+### Jakarta EE 관련 (톰캣, Payara, WildFly 등) ###
+# 서버 설정
+*.war
+*.ear
+*.jar
+*.class
+*.log
+tmp/
+conf/
+logs/
+work/
+modules/
+temp/
+server.log
+hs_err_pid*
+
+# 톰캣 전용
+tomcat/
+webapps/
+conf/server.xml
+conf/context.xml
+conf/catalina.policy
+conf/catalina.properties
+conf/web.xml
+work/
+temp/
+logs/
+lib/
+bin/
